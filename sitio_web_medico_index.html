@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="es-MX">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Dr. Jorge Arturo Barraza Silva | Cirujano de Columna en CDMX</title>
+  <meta name="description" content="Cirugía de columna mínimamente invasiva en Ciudad de México. Información profesional, procedimientos, publicaciones y contacto del Dr. Jorge Arturo Barraza Silva." />
+  <meta name="robots" content="index,follow" />
+  <meta property="og:title" content="Dr. Jorge Arturo Barraza Silva | Cirujano de Columna" />
+  <meta property="og:description" content="Información profesional, procedimientos y contacto. Sitio informativo sin fines de publicidad engañosa." />
+  <meta property="og:type" content="website" />
+  <meta property="og:locale" content="es_MX" />
+  <style>
+    :root {
+      --bg: #0f172a;        /* slate-900 */
+      --fg: #e2e8f0;        /* slate-200 */
+      --muted: #94a3b8;     /* slate-400 */
+      --card: #111827;      /* gray-900 */
+      --accent: #38bdf8;    /* sky-400 */
+      --accent-2: #22c55e;  /* green-500 */
+      --shadow: 0 10px 20px rgba(0,0,0,.25);
+      --radius: 18px;
+    }
+    * { box-sizing: border-box; }
+    html, body { margin: 0; padding: 0; background: var(--bg); color: var(--fg); font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji"; }
+    a { color: var(--accent); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .container { width: min(1100px, 92vw); margin: 0 auto; }
+    header { position: sticky; top: 0; backdrop-filter: blur(6px); background: rgba(15,23,42,.7); z-index: 10; border-bottom: 1px solid rgba(226,232,240,.08); }
+    nav { display: flex; align-items: center; justify-content: space-between; padding: 12px 0; }
+    .brand { font-weight: 700; letter-spacing: .3px; }
+    .nav-links { display: flex; gap: 16px; font-size: 0.95rem; }
+    .btn { display: inline-block; padding: 10px 16px; border-radius: var(--radius); background: var(--accent); color: #001018; font-weight: 700; box-shadow: var(--shadow); border: 0; cursor: pointer; }
+    .btn.secondary { background: var(--accent-2); }
+    .hero { padding: 48px 0 24px; display: grid; gap: 16px; }
+    .hero h1 { font-size: clamp(1.8rem, 3vw + 1rem, 3rem); line-height: 1.15; margin: 0; }
+    .hero p { color: var(--muted); font-size: 1.05rem; }
+    .hero-cta { display: flex; gap: 12px; flex-wrap: wrap; }
+    section { padding: 36px 0; }
+    .card { background: linear-gradient(180deg, rgba(17,24,39,.8), rgba(17,24,39,.95)); border: 1px solid rgba(226,232,240,.07); border-radius: var(--radius); box-shadow: var(--shadow); padding: 22px; }
+    .grid { display: grid; gap: 16px; }
+    .grid.cols-2 { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+    .grid.cols-3 { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+    .section-title { font-size: 1.4rem; margin: 0 0 10px; }
+    .muted { color: var(--muted); }
+    .list { margin: 0; padding-left: 18px; }
+    .chip { display: inline-block; padding: 6px 10px; border-radius: 999px; border: 1px solid rgba(226,232,240,.12); color: var(--muted); font-size: .9rem; }
+    footer { border-top: 1px solid rgba(226,232,240,.08); padding: 22px 0 40px; color: var(--muted); font-size: .95rem; }
+    .two-col { display: grid; grid-template-columns: 1.2fr .8fr; gap: 16px; }
+    @media (max-width: 900px) {
+      .grid.cols-2, .grid.cols-3, .two-col { grid-template-columns: 1fr; }
+      nav { gap: 12px; }
+    }
+    .kicker { text-transform: uppercase; letter-spacing: .16em; font-size: .78rem; color: var(--accent); font-weight: 700; }
+    .tagline { font-size: 1.05rem; }
+    .spacer { height: 8px; }
+    .tiny { font-size: .9rem; }
+    .ok { color: #86efac; }
+    .warn { color: #facc15; }
+  </style>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Physician",
+    "name": "Dr. Jorge Arturo Barraza Silva",
+    "medicalSpecialty": ["Orthopedic","SpineSurgery"],
+    "address": {"@type": "PostalAddress","addressLocality": "Ciudad de México","addressCountry": "MX"},
+    "areaServed": "Ciudad de México",
+    "url": "https://tusitio-ejemplo.github.io/",
+    "telephone": "+52-55-0000-0000",
+    "founder": "Jorge Arturo Barraza Silva",
+    "description": "Cirugía de columna mínimamente invasiva. Sitio informativo para pacientes y colegas.",
+    "medicalLicense": "Cédula profesional: 0000000 | Cédula de especialidad: 0000000"
+  }
+  </script>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <nav>
+        <div class="brand">Dr. Jorge A. Barraza • Cirugía de Columna</div>
+        <div class="nav-links">
+          <a href="#inicio">Inicio</a>
+          <a href="#acerca">Sobre mí</a>
+          <a href="#procedimientos">Procedimientos</a>
+          <a href="#publicaciones">Publicaciones</a>
+          <a href="#contacto">Contacto</a>
+          <a href="#aviso">Aviso</a>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section id="inicio" class="hero">
+      <span class="kicker">Sitio informativo</span>
+      <h1>Cirugía de columna con enfoque mínimamente invasivo en CDMX</h1>
+      <p class="tagline">Atiendo dolor cervical y lumbar, hernias discales, estenosis y deformidad del adulto. Esta página tiene fines informativos y no sustituye una consulta médica.</p>
+      <div class="hero-cta">
+        <a class="btn" href="#contacto">Agendar orientación</a>
+        <a class="btn secondary" href="https://wa.me/525500000000?text=Hola%2C%20me%20gustar%C3%ADa%20agendar%20una%20consulta" target="_blank" rel="noopener">WhatsApp</a>
+      </div>
+      <div class="tiny muted">Cédulas: 0000000 (profesional) · 0000000 (especialidad)</div>
+    </section>
+
+    <section id="acerca" class="two-col">
+      <div class="card">
+        <h2 class="section-title">Sobre mí</h2>
+        <p>Soy el <strong>Dr. Jorge Arturo Barraza Silva</strong>, cirujano de columna en la Ciudad de México. Formación en ortopedia y subespecialidad en cirugía de columna. Mi práctica se centra en <em>tratamientos conservadores</em> y técnicas <em>mínimamente invasivas</em> cuando están indicadas.</p>
+        <ul class="list">
+          <li>Miembro: AMCICO | AO Spine</li>
+          <li>Áreas: estenosis lumbar/cervical, hernias discales, deformidad del adulto, fracturas.</li>
+          <li>Hospitales de práctica: (añadir)</li>
+        </ul>
+        <div class="spacer"></div>
+        <span class="chip">Enfoque honesto y basado en evidencia</span>
+      </div>
+      <div class="grid">
+        <div class="card">
+          <h3 class="section-title">Formación</h3>
+          <ul class="list">
+            <li>Especialidad en Ortopedia – (institución, año)</li>
+            <li>Subespecialidad en Cirugía de Columna – (institución, año)</li>
+            <li>Certificaciones: (CMOT, otros)</li>
+          </ul>
+        </div>
+        <div class="card">
+          <h3 class="section-title">Enfoque de atención</h3>
+          <p class="muted tiny">Primero conservador; cirugía sólo cuando la indicación es clara y los beneficios superan los riesgos.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="procedimientos">
+      <h2 class="section-title">Procedimientos y servicios (informativo)</h2>
+      <p class="muted tiny">Descripción general sin promesas de resultado. Las decisiones se individualizan tras valoración clínica.</p>
+      <div class="grid cols-3">
+        <div class="card">
+          <h3>Discectomía lumbar mínimamente invasiva</h3>
+          <p class="muted">Para hernia discal con ciática refractaria.</p>
+        </div>
+        <div class="card">
+          <h3>Descompresión cervical / lumbar</h3>
+          <p class="muted">Tratamiento de estenosis con claudicación neurógena.</p>
+        </div>
+        <div class="card">
+          <h3>Fusión intersomática (ALIF/LLIF/PLIF/TLIF)</h3>
+          <p class="muted">Según indicación y perfil del paciente.</p>
+        </div>
+        <div class="card">
+          <h3>Endoscopia de columna (UBE/TESSYS)</h3>
+          <p class="muted">Alternativa selecta en casos adecuados.</p>
+        </div>
+        <div class="card">
+          <h3>Laminoplastia cervical</h3>
+          <p class="muted">Descompresión en mielopatía cervical selecta.</p>
+        </div>
+        <div class="card">
+          <h3>Corrección de deformidad del adulto</h3>
+          <p class="muted">Evaluación integral de balance sagital/coronal.</p>
+        </div>
+        <div class="card">
+          <h3>Infiltraciones guiadas por imagen</h3>
+          <p class="muted">Parte de un plan multimodal cuando está indicado.</p>
+        </div>
+        <div class="card">
+          <h3>Segunda opinión</h3>
+          <p class="muted">Revisión de diagnóstico y plan terapéutico.</p>
+        </div>
+        <div class="card">
+          <h3>Rehabilitación y educación</h3>
+          <p class="muted">Orientación sobre ejercicio y ergonomía.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="publicaciones">
+      <h2 class="section-title">Investigación y publicaciones</h2>
+      <div class="grid cols-2">
+        <div class="card">
+          <h3>Artículos</h3>
+          <ul class="list">
+            <li>(Añadir referencia real, revista, año, DOI)</li>
+            <li>(Añadir referencia real, revista, año, DOI)</li>
+          </ul>
+        </div>
+        <div class="card">
+          <h3>Docencia y ponencias</h3>
+          <ul class="list">
+            <li>(Congreso / tema / año)</li>
+            <li>(Curso / institución / año)</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="contacto">
+      <h2 class="section-title">Contacto</h2>
+      <div class="grid cols-2">
+        <div class="card">
+          <p><strong>Ciudad de México</strong> · Consulta presencial y telemedicina (según caso).</p>
+          <p class="muted">No se solicitan datos sensibles en este sitio. Para agendar, usa los botones:</p>
+          <p>
+            <a class="btn" href="mailto:dr@tu-dominio.com?subject=Consulta%20con%20Dr.%20Jorge%20Barraza">Correo</a>
+            <a class="btn secondary" href="https://wa.me/525500000000?text=Hola%2C%20me%20gustar%C3%ADa%20agendar%20una%20consulta" target="_blank" rel="noopener">WhatsApp</a>
+          </p>
+          <p class="tiny muted">Horarios de oficina: Lun–Vie 9:00–19:00</p>
+        </div>
+        <div class="card">
+          <h3>Ubicación</h3>
+          <p class="muted">(Hospital o consultorio – dirección breve)</p>
+          <p class="tiny">Estacionamiento / accesibilidad (opcional)</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="aviso" class="card">
+      <h2 class="section-title">Aviso de privacidad (resumen)</h2>
+      <p class="tiny">Responsable: Dr. Jorge Arturo Barraza Silva. Finalidad: gestionar citas y comunicación. No se recaban datos sensibles a través de este sitio; si nos contactas por WhatsApp/correo, los datos se usarán sólo para responderte y agendar. Derechos ARCO a través de <a href="mailto:privacidad@tu-dominio.com">privacidad@tu-dominio.com</a>. Esta página es informativa y no sustituye una consulta médica. Sin promociones, descuentos, testimonios ni promesas de resultado.</p>
+      <p class="tiny">Última actualización: 9 de septiembre de 2025.</p>
+      <p class="tiny ok">Cumplimiento sugerido: evitar frases absolutas, antes/después, testimonios identificables y ofertas comerciales (<span class="warn">si agregas campañas pagadas necesitarás autorización sanitaria)</span>.</p>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      © <span id="year"></span> Dr. Jorge A. Barraza · Sitio informativo. 
+      <span class="muted">Hecho con HTML/CSS estático para hospedaje gratuito.</span>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+    // Scroll suave para anclas
+    document.querySelectorAll('a[href^="#"]').forEach(a => {
+      a.addEventListener('click', e => {
+        const id = a.getAttribute('href').slice(1);
+        const el = document.getElementById(id);
+        if (el) { e.preventDefault(); el.scrollIntoView({behavior: 'smooth'}); }
+      });
+    });
+  </script>
+</body>
+</html>
